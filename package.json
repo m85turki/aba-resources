@@ -1,6 +1,6 @@
 {
   "name": "Vuexy",
-  "version": "1.0.1",
+  "version": "1.22.21",
   "private": true,
   "scripts": {
     "build": "npx gulp build",
