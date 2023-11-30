@@ -127,3 +127,16 @@
   text-align: center;
   margin-top: 1rem;
 }
+
+
+/*
+* ABA Resources
+******************************************************************************/
+.app-brand-logo.wide {
+  width: 50px !important;
+  height: 58px !important;
+}
+
+.app-brand-logo.wide img{
+  width: 100% !important;
+}
