@@ -123,7 +123,7 @@ nav.layout-navbar.navbar-active::after {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(75, 70, 92, 0.78);
+    background-color: rgba(33, 33, 33, 0.78);
     transition: all 0.2s ease-in-out;
     z-index: 9998;
   }
@@ -159,11 +159,11 @@ nav.layout-navbar.navbar-active::after {
 .light-style .layout-navbar .navbar.landing-navbar .navbar-nav .active > .nav-link,
 .light-style .layout-navbar .navbar.landing-navbar .navbar-nav .nav-link.show,
 .light-style .layout-navbar .navbar.landing-navbar .navbar-nav .nav-link.active {
-  color: #7367f0 !important;
+  color: #BE9640 !important;
 }
 @media (max-width: 991.98px) {
   .light-style .layout-navbar .navbar.landing-navbar .landing-nav-menu {
-    background-color: #fff;
+    background-color: #202020;
   }
 }
 .light-style .layout-navbar.navbar-active .navbar.landing-navbar {
@@ -185,7 +185,7 @@ nav.layout-navbar.navbar-active::after {
 .dark-style .layout-navbar .navbar.landing-navbar .navbar-nav .active > .nav-link,
 .dark-style .layout-navbar .navbar.landing-navbar .navbar-nav .nav-link.show,
 .dark-style .layout-navbar .navbar.landing-navbar .navbar-nav .nav-link.active {
-  color: #7367f0 !important;
+  color: #BE9640 !important;
 }
 @media (max-width: 991.98px) {
   .dark-style .layout-navbar .navbar.landing-navbar .landing-nav-menu {

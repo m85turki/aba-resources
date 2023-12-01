@@ -133,10 +133,91 @@
 * ABA Resources
 ******************************************************************************/
 .app-brand-logo.wide {
-  width: 50px !important;
-  height: 58px !important;
+  width: 46px !important;
+  height: 52px !important;
 }
 
 .app-brand-logo.wide img{
   width: 100% !important;
+}
+
+.app-brand-text.wide{
+  width: 126px !important;
+}
+
+.app-brand-text.wide img{
+  width: 100% !important;
+}
+
+
+
+
+
+
+
+.light-style.aba-theme .layout-navbar .navbar.landing-navbar{
+  border: none;
+  background: none;
+}
+
+.bg-navbar{
+  background: #202020;
+}
+
+.bg-navbar.transparent{
+  background: rgba(33, 33, 33, 0.8);
+}
+
+.light-style.aba-theme .layout-navbar.navbar-active .navbar.landing-navbar {
+  background: none !important;
+  box-shadow: none !important;
+}
+
+.light-style.aba-theme .layout-navbar.navbar-active {
+  box-shadow: none !important;
+  /*backdrop-filter: saturate(0) blur(0px) !important;*/
+}
+
+.light-style.aba-theme nav.layout-navbar.navbar-active::after{
+  display: none;
+}
+
+.light-style.aba-theme .layout-navbar.navbar-active .bg-navbar{
+  box-shadow: none !important;
+}
+
+.light-style.aba-theme .layout-navbar .navbar.landing-navbar .navbar-nav .nav-link {
+  color: #dee2e6;
+}
+
+.aba-theme nav .dropdown-menu{
+  background: #202020;
+}
+
+.light-style.aba-theme .navbar-toggler{
+  color: #dee2e6 !important;
+}
+
+.light-style.aba-theme nav h6, .light-style.aba-theme nav .h6, .light-style.aba-theme nav h5, .light-style.aba-theme nav .h5, .light-style.aba-theme nav h4, .light-style.aba-theme nav .h4, .light-style.aba-theme nav h3, .light-style.aba-theme nav .h3, .light-style.aba-theme nav h2, .light-style.aba-theme nav .h2, .light-style.aba-theme nav h1, .light-style.aba-theme nav .h1 {
+  color: #dee2e6 !important;
+}
+
+.dropdown-menu {
+  box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.45);
+}
+
+.navbar-nav.gold-nav .nav-item a{
+  color: #BE9640 !important;
+}
+
+.navbar.landing-navbar .navbar-nav.gold-nav .show > .nav-link,
+.navbar.landing-navbar .navbar-nav.gold-nav .active > .nav-link,
+.navbar.landing-navbar .navbar-nav.gold-nav .nav-link.show,
+.navbar.landing-navbar .navbar-nav.gold-nav .nav-link.active,
+.navbar.landing-navbar .navbar-nav.gold-nav .nav-link:hover{
+  color: #c2a056 !important;
+}
+
+.oswald {
+  font-family: 'Oswald', sans-serif;
 }

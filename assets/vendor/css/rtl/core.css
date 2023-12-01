@@ -66,7 +66,7 @@
   --bs-dark-border-subtle: rgba(75, 70, 92, 0.5);
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 75, 70, 92;
-  --bs-font-sans-serif: "Public Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  --bs-font-sans-serif: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   --bs-font-monospace: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-root-font-size: 16px;
@@ -101,15 +101,15 @@
   --bs-border-style: solid;
   --bs-border-color: #dbdade;
   --bs-border-color-translucent: rgba(75, 70, 92, 0.175);
-  --bs-border-radius: 0.375rem;
-  --bs-border-radius-sm: 0.25rem;
-  --bs-border-radius-lg: 0.5rem;
-  --bs-border-radius-xl: 0.625rem;
-  --bs-border-radius-xxl: 2rem;
+  --bs-border-radius: 0rem;
+  --bs-border-radius-sm: 0rem;
+  --bs-border-radius-lg: 0rem;
+  --bs-border-radius-xl: 0rem;
+  --bs-border-radius-xxl: 0rem;
   --bs-border-radius-2xl: var(--bs-border-radius-xxl);
   --bs-border-radius-pill: 50rem;
   --bs-box-shadow: 0 0.25rem 1rem rgba(165, 163, 174, 0.45);
-  --bs-box-shadow-sm: 0 0.125rem 0.25rem rgba(165, 163, 174, 0.3);
+  --bs-box-shadow-sm: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
   --bs-box-shadow-lg: 0 0.625rem 1.25rem rgba(165, 163, 174, 0.4);
   --bs-box-shadow-inset: inset 0 1px 2px rgba(75, 70, 92, 0.075);
   --bs-focus-ring-width: 0.15rem;
@@ -2083,7 +2083,7 @@ progress {
   background-color: #fff;
   border-color: #7367f0;
   outline: 0;
-  box-shadow: 0 0.125rem 0.25rem rgba(165, 163, 174, 0.3);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
 }
 .form-control::-webkit-date-and-time-value {
   min-width: 85px;
@@ -2228,7 +2228,7 @@ textarea.form-control-lg {
 .form-select:focus {
   border-color: #7367f0;
   outline: 0;
-  box-shadow: 0 0.125rem 0.25rem rgba(165, 163, 174, 0.3);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
 }
 .form-select[multiple], .form-select[size]:not([size="1"]) {
   padding-right: 0.875rem;
@@ -2309,7 +2309,7 @@ textarea.form-control-lg {
 .form-check-input:focus {
   border-color: #7367f0;
   outline: 0;
-  box-shadow: 0 0.125rem 0.25rem rgba(165, 163, 174, 0.3);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
 }
 .form-check-input:checked {
   background-color: #7367f0;
@@ -2664,7 +2664,7 @@ textarea.form-control-lg {
   --bs-btn-border-color: transparent;
   --bs-btn-border-radius: var(--bs-border-radius);
   --bs-btn-hover-border-color: transparent;
-  --bs-btn-box-shadow: 0 0.125rem 0.25rem rgba(165, 163, 174, 0.3);
+  --bs-btn-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
   --bs-btn-disabled-opacity: 0.65;
   --bs-btn-focus-box-shadow: 0 0 0 0.05rem rgba(var(--bs-btn-focus-shadow-rgb), .5);
   display: inline-block;
@@ -7154,7 +7154,7 @@ a.invert-bg-dark:hover, a.invert-bg-dark:focus {
   line-height: 0.9;
 }
 .btn:not([class*=btn-label-]):not([class*=btn-outline-]) {
-  box-shadow: 0 0.125rem 0.25rem rgba(165, 163, 174, 0.3);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
 }
 .btn:not([class*=btn-]) {
   box-shadow: none !important;
@@ -8689,7 +8689,7 @@ html:not([dir=rtl]) .input-group > .btn-group:last-child > .btn:not([class*=btn-
 }
 
 .nav-pills .nav-link.active {
-  box-shadow: 0 0.125rem 0.25rem rgba(165, 163, 174, 0.3);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
 }
 
 .nav-tabs .nav-link,
@@ -9165,7 +9165,7 @@ html:not([dir=rtl]) .nav-align-left .nav-tabs {
 
 .page-item.active .page-link, .page-item:active .page-link {
   transform: scale(0.98);
-  box-shadow: 0 0.125rem 0.25rem rgba(165, 163, 174, 0.3);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
 }
 
 .page-item.first .page-link, .page-item.last .page-link, .page-item.next .page-link, .page-item.prev .page-link, .page-item.previous .page-link {
@@ -9907,7 +9907,7 @@ html:not([dir=rtl]) .form-control:not([readonly]):focus::placeholder {
   background-color: #dbdade;
 }
 .form-check .form-check-input:checked, .form-check .form-check-input[type=checkbox]:indeterminate {
-  box-shadow: 0 0.125rem 0.25rem rgba(165, 163, 174, 0.3);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
 }
 
 .form-check-input {
@@ -10078,7 +10078,7 @@ html:not([dir=rtl]) .form-control:not([readonly]):focus::placeholder {
   border-color: #c9c8ce;
 }
 .input-group:focus-within {
-  box-shadow: 0 0.125rem 0.25rem rgba(165, 163, 174, 0.3);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
 }
 .input-group:focus-within .form-control,
 .input-group:focus-within .input-group-text {
@@ -10499,7 +10499,7 @@ form select.selectpicker.is-invalid ~ .btn {
   background-image: url("data:image/svg+xml,%3Csvg width='19' height='18' viewBox='0 0 19 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14 4.5L5 13.5' stroke='%23a5a3ae' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M14 4.5L5 13.5' stroke='white' stroke-opacity='0.2' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M5 4.5L14 13.5' stroke='%23a5a3ae' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M5 4.5L14 13.5' stroke='white' stroke-opacity='0.2' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
   opacity: 1;
   padding: 0.44rem;
-  box-shadow: 0 0.125rem 0.25rem rgba(165, 163, 174, 0.3);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
   transition: all 0.23s ease 0.1s;
 }
 html:not([dir=rtl]) .modal .btn-close {
@@ -11729,7 +11729,7 @@ html:not([dir=rtl]) .card .card-separator {
 }
 
 .accordion:not(.accordion-bordered) > .card.accordion-item {
-  box-shadow: 0 0.125rem 0.25rem rgba(165, 163, 174, 0.3);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3);
 }
 .accordion:not(.accordion-bordered) > .card.accordion-item.active {
   box-shadow: 0 0.25rem 1.125rem rgba(75, 70, 92, 0.1);
@@ -12083,7 +12083,7 @@ html:not([dir=rtl]) .card .card-separator {
 }
 
 .shadow-sm {
-  box-shadow: 0 0.125rem 0.25rem rgba(165, 163, 174, 0.3) !important;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.3) !important;
 }
 
 .shadow-lg {
