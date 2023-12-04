@@ -218,6 +218,47 @@
   color: #c2a056 !important;
 }
 
-.oswald {
+.s-font {
   font-family: 'Oswald', sans-serif;
+}
+
+.icon-card{
+  color: #FFFFFF;
+  font-size: 1.5pt;
+}
+.icon-card .ti{
+  color: #FFFFFF;
+  font-size: 30pt !important;
+}
+
+/* border gradient gold  */
+.border-gradient-gold {
+  border-image-source: linear-gradient(133deg, #EADEC2, #FFFFFF);
+  border-image-slice: 1;
+  border-width: 1px;
+  transition: 1s all;
+}
+
+.border-gradient-gold:hover{
+  border-image-source: linear-gradient(133deg, #BE9640, #BE9640);
+  border-image-slice: 1;
+  border-width: 1px;
+}
+
+.bg-gray-custom{
+  background: #404040;
+}
+
+.firstarabic-img{
+  max-width: 75%;
+}
+
+.firstarabic-img img{
+  max-width: 100%;
+}
+
+.logo-play{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
 }

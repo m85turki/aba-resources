@@ -104,12 +104,12 @@ a.bg-primary:hover, a.bg-primary:focus {
 }
 
 .bg-label-primary {
-  background-color: #eae8fd !important;
+  background-color: #f5eddb !important;
   color: #BE9640 !important;
 }
 
 .bg-label-hover-primary {
-  background-color: #eae8fd !important;
+  background-color: #f5eddb !important;
   color: #BE9640 !important;
 }
 .bg-label-hover-primary:hover {
@@ -1076,7 +1076,7 @@ li.ui-timepicker-selected,
 }
 
 .fc .fc-event-primary:not(.fc-list-event) {
-  background-color: #eae8fd !important;
+  background-color: #f5eddb !important;
   color: #BE9640 !important;
 }
 .fc .fc-event-primary.fc-list-event .fc-list-event-dot {
@@ -1102,7 +1102,7 @@ li.ui-timepicker-selected,
 
 .swal2-progress-steps[class] .swal2-progress-step.swal2-active-progress-step ~ .swal2-progress-step,
 .swal2-progress-steps[class] .swal2-progress-step.swal2-active-progress-step ~ .swal2-progress-step-line {
-  background: #eae8fd;
+  background: #f5eddb;
 }
 
 .pcr-app .pcr-type.active,
@@ -1255,12 +1255,12 @@ li.ui-timepicker-selected,
 }
 .bg-navbar-theme .navbar-brand,
 .bg-navbar-theme .navbar-brand a {
-  color: #5d596c;
+  color: #202020;
 }
 .bg-navbar-theme .navbar-brand:hover, .bg-navbar-theme .navbar-brand:focus,
 .bg-navbar-theme .navbar-brand a:hover,
 .bg-navbar-theme .navbar-brand a:focus {
-  color: #5d596c;
+  color: #202020;
 }
 .bg-navbar-theme .navbar-search-wrapper .navbar-search-icon,
 .bg-navbar-theme .navbar-search-wrapper .search-input {
@@ -1281,7 +1281,7 @@ li.ui-timepicker-selected,
 .bg-navbar-theme .navbar-nav > .nav-item > .nav-link:focus,
 .bg-navbar-theme .navbar-nav > .nav > .nav-item > .nav-link:hover,
 .bg-navbar-theme .navbar-nav > .nav > .nav-item > .nav-link:focus {
-  color: #5d596c;
+  color: #202020;
 }
 .bg-navbar-theme .navbar-nav > .nav-link.disabled,
 .bg-navbar-theme .navbar-nav > .nav-item > .nav-link.disabled,
@@ -1292,7 +1292,7 @@ li.ui-timepicker-selected,
 .bg-navbar-theme .navbar-nav .active > .nav-link,
 .bg-navbar-theme .navbar-nav .nav-link.show,
 .bg-navbar-theme .navbar-nav .nav-link.active {
-  color: #5d596c;
+  color: #202020;
 }
 .bg-navbar-theme .navbar-toggler {
   color: #6f6b7d;
@@ -1305,10 +1305,10 @@ li.ui-timepicker-selected,
   color: #6f6b7d;
 }
 .bg-navbar-theme .navbar-text a {
-  color: #5d596c;
+  color: #202020;
 }
 .bg-navbar-theme .navbar-text a:hover, .bg-navbar-theme .navbar-text a:focus {
-  color: #5d596c;
+  color: #202020;
 }
 .bg-navbar-theme hr {
   border-color: rgba(93, 89, 108, 0.075);
@@ -1355,12 +1355,12 @@ li.ui-timepicker-selected,
 .bg-menu-theme .menu-horizontal-prev:focus,
 .bg-menu-theme .menu-horizontal-next:hover,
 .bg-menu-theme .menu-horizontal-next:focus {
-  color: #5d596c;
+  color: #202020;
 }
 .bg-menu-theme .menu-link.active,
 .bg-menu-theme .menu-horizontal-prev.active,
 .bg-menu-theme .menu-horizontal-next.active {
-  color: #5d596c;
+  color: #202020;
 }
 .bg-menu-theme .menu-item.disabled .menu-link,
 .bg-menu-theme .menu-horizontal-prev.disabled,
@@ -1369,7 +1369,7 @@ li.ui-timepicker-selected,
 }
 .bg-menu-theme .menu-item.open:not(.menu-item-closing) > .menu-toggle,
 .bg-menu-theme .menu-item.active > .menu-link {
-  color: #5d596c;
+  color: #202020;
 }
 .bg-menu-theme.menu-vertical .menu-item.active > .menu-link:not(.menu-toggle) {
   background: linear-gradient(72.47deg, #BE9640 22.16%, rgba(115, 103, 240, 0.7) 76.47%);
@@ -1406,7 +1406,7 @@ li.ui-timepicker-selected,
   background: linear-gradient(#fff 41%, rgba(255, 255, 255, 0.11) 95%, rgba(255, 255, 255, 0));
 }
 .bg-menu-theme .menu-text {
-  color: #5d596c;
+  color: #202020;
 }
 .bg-menu-theme .menu-header {
   color: #93909e;
@@ -1451,19 +1451,19 @@ html:not(.layout-menu-collapsed) .bg-menu-theme .menu-inner .menu-item:not(.acti
   color: #6f6b7d;
 }
 .bg-footer-theme .footer-link:hover, .bg-footer-theme .footer-link:focus {
-  color: #5d596c;
+  color: #202020;
 }
 .bg-footer-theme .footer-link.disabled {
   color: #a9a6b1 !important;
 }
 .bg-footer-theme .footer-text {
-  color: #5d596c;
+  color: #202020;
 }
 .bg-footer-theme .show > .footer-link,
 .bg-footer-theme .active > .footer-link,
 .bg-footer-theme .footer-link.show,
 .bg-footer-theme .footer-link.active {
-  color: #5d596c;
+  color: #202020;
 }
 .bg-footer-theme hr {
   border-color: rgba(93, 89, 108, 0.075);
